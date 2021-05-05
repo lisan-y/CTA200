@@ -1,0 +1,98 @@
+  436  mkdir cta200_assign1
+  437  git init
+  438  ls -la
+  439  rm -rf .git
+  440  ls -la
+  441  cd cta200_assign1
+  442  git init
+  443  git remote add origin https://github.com/lisan-y/CTA200.git
+  444  vim README.md
+  445  add README.md
+  446  git add README.md
+  447  vim LICENSE
+  448  git add LICENSE
+  449  git commit -m "first commit"
+  450  pwd
+  451  mkdir assignment_1
+  452  vim average.c
+  453  cd assignment_1
+  454  git add average.c
+  455  cd ..
+  456  ls -la
+  457  rm average.c
+  458  ls -la
+  459  cd assignment_1
+  460  vim average.c
+  461  vim average.h
+  462  vim main.c
+  463  vim Makefile
+  464  make
+  465  gcc -o average average.c main.c -I
+  466  ls -la
+  467  more Makefile
+  468  cd ..
+  469  pwd
+  470  cd ..
+  471  cd gauss2d/
+  472  ls -la
+  473  more Makefile
+  474  cd ..
+  475  pwd
+  476  cd cta200_assign1/
+  477  cd assignment_1/
+  478  vim Makefile
+  479  cat Makefile
+  480  vim Makefile
+  481  make
+  482  vim Makefile
+  483  make
+  484  vim Makefile
+  485  make
+  486  vim Makefile
+  487  make
+  488  ls -la
+  489  ./average
+  490  git commit Makefile average.c average.h main.c
+  491  git commint -m "second commit"
+  492  git commit -m "second commit"
+  493  git log
+  494  git add Makefile main.c average.c average.h
+  495  cd ..
+  496  pwd
+  497  ls -la
+  498  git commit -m "second commit"
+  499  git log
+  500  git push --set-upstream origin main
+  501  git push -u origin main
+  502  ls -la
+  503  .git/config
+  504  more .git/config
+  505  vim .git/config
+  506  more .git/config
+  507  git remote set-url origin ssh://lisan-y@github.com/lisan-y/CTA200.git
+  508  push -u origin main
+  509  git push -u origin main
+  510  pwd
+  511  more .git/config
+  512  git push -u origin master
+  513  git remote set-url origin http://github.com/lisan-y/CTA200.git
+  514  git push -u origin master
+  515  history > history.txt
+  516  ls -la
+  517  vim history.txt
+  518  history 81 > history1.txt
+  519  vim history1.txt
+  520  rm history1.txt
+  521  history 87 >history1.txt
+  522  vim history1.txt
+  523  exit
+  524  cd /mnt/scratch-lustre/nasuyu/cta200_assign1/
+  525  ls -la
+  526  .git/config
+  527  cat .git/config
+  528  git remote set-url origin https://lisan-y@github.com/lisan-y/CTA200.git
+  529  cat .git/config
+  530  git push -u origin main
+  531  git push -u origin master
+  532  history
+  533  history 98 > history.txt
